@@ -46,3 +46,15 @@ body {
     background-color: hsl(278, 68%, 11%);
     font-family:'Space Grotesk', sans-serif;
 }
+
+.card_front {
+    position: relative;
+    left: 17%;
+    bottom: 1050px;
+}
+
+.card_back {
+    position: relative;
+    left: 24%;
+    bottom: 1030px;
+}
