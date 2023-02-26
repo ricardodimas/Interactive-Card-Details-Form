@@ -5,17 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <title>Frontend Mentor | Interactive card details form</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
+  <div>
+    <img class="sidebar" src="/images/bg-main-desktop.png"></img>
+  </div>
+  <div class="card_info">
+    <form>
+      <!--Cardholder Name Field-->
+      <label class="text_style">CARDHOLDER NAME</label>
+      <br>
+      <input class="input_field" type="text" name="name">
+      <br>
+      <br>
+      <!--Cardnumber Field-->
+      <label class="text_style">CARD NUMBER</label>
+      <br>
+      <input class="input_field" type="number" name="number">
+      <br>
+      <br>
+      <!--Expiration Date & CVC Fields-->
+      <label class="text_style">EXP. DATE (MM/YY)</label>
+      <label class="text_style">CVC</label>
+      <br>
+      <input class="date_input" type="number" name="month">
+      <input class="date_input" type="number" name="year">
+      <input class="cvc_input"  type="number" name="month">
+      <br>
+      <br>
+      <br>  
+    </form>
+    <input type="button" class="confirm_button" value="Confirm"></button>
+  </div>
   0000 0000 0000 0000
   Jane Appleseed
   00/00

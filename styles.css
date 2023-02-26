@@ -1,2 +1,48 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+  }
+  
+
+body {
+    margin-top: 0   ;
+    margin-left: 0   ;
+}
+
+.card_info {
+    position: relative;
+    left: 820px;
+    bottom: 700px;
+}
+
+.text_style {
+    font-family:'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: hsl(278, 68%, 11%);
+}
+
+.input_field {
+    width: 280px;
+    height: 25px;
+}
+
+.date_input {
+    width: 50px;
+    height: 25px;
+}
+
+.cvc_input {
+    width: 157px;
+    height: 25px;
+}
+
+.confirm_button {
+    height: 45px;
+    width: 289px;
+    color:hsl(270, 3%, 87%);
+    background-color: hsl(278, 68%, 11%);
+    font-family:'Space Grotesk', sans-serif;
+}
